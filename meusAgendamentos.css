@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(17, 121, 182, 0.7);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.logo {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #f8be1e;
+  position: absolute;
+  left: 0;
+  height: 5%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+div {
+  background: white;
+  color: #000;
+  padding: 5px;
+  margin-bottom: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

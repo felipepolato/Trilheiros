@@ -8,110 +8,43 @@ body {
   color: white;
 }
 
-a { text-decoration: none !important; color: white !important; }
-
-.SepararRelatorios {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+a {
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .logo {
-  width: 70%;
+  width: 40%;
   margin-top: 50px;
-}
-
-.avatar {
-  width: 20%;
-  height: 25%;
-  border-radius: 50%;
-  margin-left: 5%;
-}
-
-.container-avatar {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-
-.user-details {
-  line-height: 0.3;
-  margin-left: 10px;
-  text-align: left;
-}
-
-.container-relatorios {
-  line-height: 0;
-}
-
-.container-relatorio1 {
-  display: flex;
-  width: 80%;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.container-relatorio2 {
-  display: flex;
-  width: 80%;
-  flex-direction: row;
-  align-items: center;
-}
-
-.paragrafo-relatorio {
-  margin: 20px;
-}
-
-.button {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  border: 2px rgb(255, 198, 73);
 }
 
 button {
-  background: #116591;
-  border: #116591;
-  height: 4vh;
-  color: white;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.47);
-}
-
-button:focus {
-  outline: none;
-}
-
-.sair {
   background: #f8be1e;
+  width: 50vw;
+  height: 5vh;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.47);
+  border: none;
+  font-weight: bold;
 }
 
-.branco {
-  background: white;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
+.container {
+  margin-top: 100px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding-bottom: 70px;
+  width: 70%;
 }
 
-.vermelho {
-  background: red;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
+.container-input {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
 }
 
-.verde {
-  background: green;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-}
-
-.amarelo {
-  background: yellow;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
+input {
+  margin-bottom: 5px;
+  height: 5vh;
 }
