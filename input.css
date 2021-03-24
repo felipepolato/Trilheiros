@@ -9,6 +9,11 @@ body {
   font-weight: bold 30px;
 }
 
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
 .logo {
   width: 70%;
   margin-top: 50px;
@@ -16,14 +21,14 @@ body {
 }
 
 .logomarca {
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    background: rgb(143, 141, 141);
-    margin-bottom: 10px;
-    height: 4vh;
-    padding-top: 5px;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  background: rgb(143, 141, 141);
+  margin-bottom: 10px;
+  height: 4vh;
+  padding-top: 5px;
+}
 
 input {
   height: 4vh;
@@ -45,15 +50,14 @@ button {
   font-weight: bold;
 }
 
-.enviar{
-    background: #f8be1e;
-    position: absolute;
-    width: 100vw;
-    height: 5%;
-    border: none;
-    color: white;
-    font-weight: bold;
-    
+.enviar {
+  background: #f8be1e;
+  position: absolute;
+  width: 100vw;
+  height: 5%;
+  border: none;
+  color: white;
+  font-weight: bold;
 }
 
 .imagem1 {
