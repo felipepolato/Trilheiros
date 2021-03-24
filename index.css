@@ -6,6 +6,7 @@ body {
   background: rgb(17, 121, 182, 0.7);
   font-family: "Roboto", sans-serif;
   color: white;
+  font-weight: bold 30px;
 }
 
 .SepararRelatorios {
@@ -74,6 +75,7 @@ button {
   border: #116591;
   height: 4vh;
   color: white;
+  font-weight: bold 150px;
 }
 
 button:focus {
