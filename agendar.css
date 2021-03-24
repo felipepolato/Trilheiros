@@ -20,9 +20,14 @@ button {
 }
 
 .enviar {
-    margin-top: 5px;
-    left: 45px;
+  margin-top: 5px;
+  left: 45px;
   width: 80%;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
 }
 
 img {
@@ -36,8 +41,8 @@ input:focus {
 }
 
 button:focus {
-    outline: none;
-  }
+  outline: none;
+}
 
 .data {
   width: 100vw;
