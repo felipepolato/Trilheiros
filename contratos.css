@@ -1,0 +1,30 @@
+.verde{
+    height: 10vw;
+    background: green;
+    line-height: 0.5;
+    color: white;
+}
+
+.amarelo{
+    height: 10vw;
+    background: yellow;
+    line-height: -0.2px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preto{
+    height: 10vw;
+    background: black;
+    line-height: 0.5;
+    color: white;
+}
+
+.vermelho{
+    height: 10vw;
+    background: red;
+    line-height: 0.5;
+    color: white;
+}
