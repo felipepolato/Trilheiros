@@ -9,6 +9,13 @@ body {
   font-size: 18px;
 }
 
+.hr{
+  width: 100%;
+  background-color: white;
+  border-bottom:1px solid ;
+}
+
+
 .divCentraliza {
   display: flex;
   align-items: center;
