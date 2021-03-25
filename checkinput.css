@@ -1,0 +1,127 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(17, 121, 182, 0.7);
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+.divCentraliza {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+input {
+  height: 4vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+button {
+  background: #f8be1e;
+  position: absolute;
+  left: 0;
+  height: 5%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.enviar {
+  background: #f8be1e;
+  position: absolute;
+  width: 100vw;
+  height: 5%;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.pet-agro {
+}
+
+.veiculos {
+}
+
+.saude {
+}
+
+.beleza-cuidado {
+}
+
+.arte-papelaria-armarinho {
+}
+
+.alimentos-bebidas {
+}
+
+.utilidade-publica {
+}
+
+.construcao-civil {
+}
+
+.profissioinais-liberais {
+}
+
+.eletronicos-informatica {
+}
+
+.hotelaria {
+}
+
+.imoveis {
+}
+
+.moda-acessorios {
+}
+
+.educação {
+}
+
+.religiao {
+}
+
+.nautica {
+}
+
+.turismo {
+}
+
+.servicos {
+}
+
+.saude-beleza-delivery {
+}
+
+.moda-delivery {
+}
+
+.gastronimia-delivery {
+}
